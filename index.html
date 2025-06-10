@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>DIO Desafio de Código</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1>DIO Desafio de Código</h1>
+        <h2>Validador de Bandeiras de Cartão de Crédito com GitHub Copilot</h2>
+        <form id="card-form" autocomplete="off">
+            <label for="card-number">Número do cartão de crédito:</label>
+            <input type="text" id="card-number" name="card-number" maxlength="19" inputmode="numeric" pattern="[0-9]*" required>
+            <button type="submit">Validar</button>
+        </form>
+        <div id="result"></div>
+    </main>
+    <footer style="padding: 24px;">
+        <div class="dev">
+            <span><em>Página desenvolvida por Evandro Moreira</em></span><br>
+            <div>
+                <a href="https://www.linkedin.com/in/evandromef" target="_blank" title="LinkedIn">
+                    <img src="img/linkedin.png" alt="LinkedIn" height="20"> <span>Linkedin</span>
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/evandromef" target="_blank" title="GitHub">
+                    <img src="img/github.png" alt="GitHub" height="20"> <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+        ____
+        <div class="links">
+            <div>
+                <a href="https://www.dio.me/" target="_blank">
+                    <img src="img/logo_dio.png" alt="DIO" height="20"> <span>DIO</span>
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/features/copilot" target="_blank">
+                    <img src="img/logo_github-copilot.svg" alt="GitHub Copilot" height="20"> <span>GitHub Copilot</span>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.4devs.com.br/gerador_de_numero_cartao_credito" target="_blank">
+                    <img src="img/4devs.png" alt="4Devs" height="20"> <span>4Devs</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 400px;
+    margin: 40px auto 0 auto;
+    background: #fff;
+    padding: 32px 24px 24px 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+form {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    background: #0066ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #004bb5;
+}
+
+#result {
+    margin-top: 1rem;
+    min-height: 32px;
+    font-size: 1.1rem;
+}
+
+#result img {
+    vertical-align: middle;
+    height: 15px;
+    margin-right: 8px;
+}
+
+footer {
+    margin-top: 40px;
+    background: #222;
+    color: #eee;
+    padding: 18px 0 10px 0;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+footer .links {    
+    margin-top: 8px;    
+}
+
+footer .dev div, footer .links div {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+footer a {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    color: #eee;
+    text-decoration: none;
+    margin: 0 6px;
+    /* vertical-align: middle; */
+}
+
+footer img {
+    /* vertical-align: middle; */
+    margin-right: 4px;
+}
